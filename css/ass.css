@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f5;
+}
+header{
+    padding: 0 15em;
+    background-color: #f95706;
+}
+.t-text{
+    padding: 10px;
+    color: white;
+    display: flex;
+    gap: 15%;
+    justify-content: start;
+}
+.logo{
+    display: flex;
+}
+.logo>img{
+    width: 10em;
+    padding: 0 15px 15px 15px;
+    cursor: pointer;
+}
+.search{
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    top: 1em;
+}
+.logo>input{
+    border: none;
+    border-radius: 10px;
+}
+section{
+    display: flex;
+    margin: 1em 20em;
+    text-transform: capitalize;    
+    background-color: #ffffff;
+}
+nav{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 0 1px;
+    font-weight: 100;
+}
+nav>ul{
+    padding: 1em 1em;
+    list-style: none;
+}
+nav>ul>li{
+    padding: .3em 0;
+}
+ul>li>a>i{
+    padding: 0 5px;
+}
+ul>li>a{
+    color: #746f6e;
+    text-decoration: none;
+}
+
+.ads{
+    margin: 0 1em;
+    width: 100%;
+    background-color: #ffa3fe;
+    border-radius: 10px;
+    padding: 1em 2em;
+}
+.ads>h1{
+    color: #40013a;
+    font-size: 4em;
+}
+.ads>p{
+    color: #40013a;
+    font-size: 2em;
+    font-weight: 600;
+}
+.ads>aside{
+    width: 70%;
+    font-size: 2em;
+    color: #ffffff;
+    margin: 10px 1px;
+    padding: 10px 10px;
+    background-color: #f95706;
+    border-radius: 10px .5em 1em 10px;   
+}
+.ads>button{
+    width: 30%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    position: relative;
+    top: 2em;
+    color: #40013a;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.category{
+    margin: 1em 18em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+aside img{
+    width: 5em;
+}
+aside p{
+    text-align: center;
+}
+aside hr{
+    background-color: #746f6e;
+    height: 5em;
+    margin: 1em 0 0 0;
+}
+.chat{
+    width: 6em;
+    background-color: #ffffff;
+    padding: .5em;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    position:fixed;
+    right: 5em;
+}
+.chat img{
+    width: 1.5em;
+    transform: scaleX(-1);
+}
